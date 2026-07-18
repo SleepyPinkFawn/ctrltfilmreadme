@@ -1,0 +1,45 @@
+body {
+	background-color: #ffe7e8;
+	margin-top: 80px;
+}
+
+@font-face {
+  font-family: Filsonsoft;
+  src: url(FilsonSoft.ttf);
+}
+
+.centerpage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tekst {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Filsonsoft;
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+}
+
+.bwe {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	pointer-events: none;
+	-webkit-touch-callout: none;
+}
+
+.bwegen {
+	max-height: 100%;
+}
+
+.bwemax {
+	max-height: 165px;
+}
+
+li {
+  margin: 20px 0;
+}
